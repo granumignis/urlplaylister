@@ -4,6 +4,8 @@ from sys import argv
 from netflixtemplate import *
 from hulutemplate import *
 
+print "It's running!"
+
 def parse_arguments():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("filename")
