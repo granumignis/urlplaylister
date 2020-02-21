@@ -3,6 +3,7 @@ import argparse
 from sys import argv
 from netflixtemplate import *
 from hulutemplate import *
+from youtubetemplate import *
 
 print "It's running!"
 
@@ -32,7 +33,12 @@ def append_to_playlist(url,milliseconds,filename):
 			target.write(HTemplate.substitute(sUrl=url, sLength=milliseconds))
 			# NTemplate is located in netflixtemplate.py
 		print ("Hulu Item added to playlist, full playlist below.")		
-	
+	elif "youtube.com" in url:
+		with open(filename, 'a') as target:
+			target.write(YTemplate.substitute(sUrl=url, sLength=milliseconds))
+			# NTemplate is located in youtubetemplate.py
+		print ("Youtube Item added to playlist, full playlist below.")	
+
 def display_playlist():
 	with open(filename, 'r') as target:
 		print target.read()
