@@ -14,6 +14,8 @@ There is no guarantee of reliability or function and no liability is assumed for
 
 IMPORTANT NOTES:
 
+This Software is Built in Python 2 and Requires that Python2 be installed to Execute
+
 For the sites mentioned in the list above, ensure your account with those sites is the Premium or 'No Ads' tier. Ads will interfere with timing and produce unexpected or suboptimal results.
 
 The resulting .ahk files will attempt to open all URLS in Chrome. As such, make sure of the following:
