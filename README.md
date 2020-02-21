@@ -18,7 +18,9 @@ This Software is Built in Python 2 and Requires that Python2 be installed to Exe
 
 For the sites mentioned in the list above, ensure your account with those sites is the Premium or 'No Ads' tier. Ads will interfere with timing and produce unexpected or suboptimal results.
 
-The resulting .ahk files will attempt to open all URLS in Chrome. As such, make sure of the following:
+Also, ensure you are logged in to those sites in Chrome (such that visitng the site will not ask you to enter credentials).
+
+The .ahk files created by this program will attempt to open all URLS in Chrome. As such, make sure of the following:
 	No Chrome windows are open at the time you execute a resulting .ahk file
 	Chrome has already been authenticated to the sites used in the playlist (if the site requires authentication)
 
