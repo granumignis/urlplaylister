@@ -25,6 +25,7 @@ def gather_info(filename):
 def append_to_playlist(url,milliseconds,filename):
 
 	if "netflix.com" in url:
+		url = sanitize_netflix_url(url);
 		with open(filename, 'a') as target:
 			target.write(NTemplate.substitute(sUrl=url, sLength=milliseconds))
 			# NTemplate is located in netflixtemplate.py
@@ -52,6 +53,10 @@ def display_playlist():
 def end_program():
 	print "Thank you for using this software."
 	quit()
+
+def sanitize_netflix_url(unsanitized_netflix_url):
+	sanitized_netflix_url = unsanitized_netflix_url.split('&', 1)[0];
+	return (sanitized_netflix_url)
 
 if __name__ == "__main__":
 
