@@ -5,6 +5,7 @@ from netflixtemplate import *
 from hulutemplate import *
 from youtubetemplate import *
 from disneyplustemplate import *
+from amazonprimevideotemplate import *
 
 print "It's running!"
 
@@ -45,6 +46,11 @@ def append_to_playlist(url,milliseconds,filename):
 			target.write(DTemplate.substitute(sUrl=url, sLength=milliseconds))
 			# DTemplate is located in disneyplustemplate.py
 		print ("Disney Plus Item added to playlist, full playlist below.")	
+	elif "amazon.com" in url:
+		with open(filename, 'a') as target:
+			target.write(APVTemplate.substitute(sUrl=url, sLength=milliseconds))
+			# APVTemplate is located in amazonprimevideotemplate.py
+		print ("Amazon Prime Video Item added to playlist, full playlist below.")
 
 def display_playlist():
 	with open(filename, 'r') as target:
