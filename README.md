@@ -4,10 +4,10 @@ This software builds .ahk files that can be executed by the free Windows softwar
 
 The software currently has special funcionality for urls containing the following domains:
 
-disneyplus.com
-youtube.com
-hulu.com
-netflix.com
+disneyplus.com<br>
+youtube.com<br>
+hulu.com<br>
+netflix.com<br>
 
 There is no guarantee of reliability or function and no liability is assumed for data loss or damage caused by the software. The software is provided 'as-is'.
 
