@@ -31,6 +31,6 @@ Add a playlist item to a new or existing .ahk file:
 
 	python urlplaylister nameofplaylistfile.ahk
 
-Then, enter the url and the duration (in minutes) as prompted 
-Repeat this same syntax to add additional items to an existing .ahk playlist
+Then, enter the url and the duration (in minutes) as prompted<br>
+Repeat this same syntax to add additional items to an existing .ahk playlist<br>
 To execute the .ahk file Double click the file (as long as AutoHotKey is installed on the system running the .ahk file)
