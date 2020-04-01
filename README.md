@@ -20,7 +20,10 @@ For the sites mentioned in the list above, ensure your account with those sites 
 
 Also, ensure you are logged in to those sites in Chrome (such that visitng the site will not ask you to enter credentials).
 
-The .ahk files created by this program will attempt to open all URLS in Chrome. As such, make sure of the following: No Chrome windows are open at the time you execute a resulting .ahk file Chrome has already been authenticated to the sites used in the playlist (if the site requires authentication)
+The .ahk files created by this program will attempt to open all URLS in Chrome. As such, make sure of the following: 
+
+- No Chrome windows are open at the time you execute a resulting .ahk file<
+- Chrome has already been authenticated to the sites used in the playlist (if the site requires authentication)
 
 ### EXAMPLE SYNTAX (Windows Command Line):
 
