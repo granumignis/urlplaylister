@@ -1,6 +1,6 @@
 ## URL Playlister
 
-This software builds .ahk files that can be executed by the free Windows software 'AutoHotKey'. The resuling .ahk files are designed to play the URLs in Succession in an unattended fashion. this can be nice if you want to set a playlist of 'background watching' material, but the material is located on different websites that do not allow such a cross-site playlist to be created.
+This software builds .ahk files that can be executed by the free Windows software 'AutoHotKey'. The resulting .ahk files are designed to play the URLs in Succession in an unattended fashion. this can be nice if you want to set a playlist of 'background watching' material, but the material is located on different websites that do not allow such a cross-site playlist to be created.
 
 The software currently has special funcionality for urls containing the following domains:
 
@@ -18,7 +18,7 @@ This Software is Built in Python 2 and Requires that Python2 be installed to Exe
 
 For the sites mentioned in the list above, ensure your account with those sites is the Premium or 'No Ads' tier. Ads will interfere with timing and produce unexpected or suboptimal results.
 
-Also, ensure you are logged in to those sites in Chrome (such that visitng the site will not ask you to enter credentials).
+Also, ensure you are logged in to those sites in Chrome (such that visiting the site will not ask you to enter credentials).
 
 The .ahk files created by this program will attempt to open all URLS in Chrome. As such, make sure of the following: 
 
