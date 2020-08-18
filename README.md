@@ -34,3 +34,7 @@ Add a playlist item to a new or existing .ahk file:
 Then, enter the url and the duration (in minutes) as prompted<br>
 Repeat this same syntax to add additional items to an existing .ahk playlist<br>
 To execute the .ahk file Double click the file (as long as AutoHotKey is installed on the system running the .ahk file)
+
+### Related Trello Board
+*Disclaimer: Nothing on this Trello Board is a Promise or Guarantee Of Anything :)*
+https://trello.com/b/nlJJ3OLF/url-playlister
